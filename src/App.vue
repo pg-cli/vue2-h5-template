@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div >h5 template</div>
+    <div >h5 template basic</div>
   </div>
 </template>
 
