@@ -1,4 +1,4 @@
-import request from '@/utils/requests'
+import request from '@/api/requests'
 
 // 登录
 export function login(data) {
