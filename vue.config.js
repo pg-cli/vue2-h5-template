@@ -1,5 +1,6 @@
 
 module.exports = {
+  publicPath: "./", //防止打包后路径错误
   css: {
     sourceMap: false,
     loaderOptions: {
@@ -13,7 +14,9 @@ module.exports = {
       },
     },
   },
-
+  devServer: {
+    host: '0.0.0.0', // 方便映射到局域网
+  },
   //alias别名
   configureWebpack: {
     resolve: {

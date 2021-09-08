@@ -4,9 +4,9 @@ import 'normalize.css'
 // 全局引入按需引入UI库 vant
 import '@/plugins/vant'
 //路由
-// import router from './router'
+import router from './router'
 //vuex
-// import store from './store'
+import store from './store'
 import VConsole from 'vconsole'
 
 //加载vconsole
@@ -20,6 +20,6 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
-  // router,
-  // store,
+  router,
+  store,
 }).$mount('#app')
